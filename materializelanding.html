@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Font-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Materialize CSS</title>
+    <style>
+        header {
+            background: url(img/cover2.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 600px;
+        }
+
+        @media screen and (max-width :670px) {
+            header {
+                min-height: 500px;
+            }
+
+        }
+
+        .section {
+            padding-top: 4vw;
+            padding-bottom: 4vw;
+        }
+
+        .tabs .indicator {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar-->
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="#" class="brand-logo">Flower</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li> <a href="#product">Product</a></li>
+                    <li> <a href="#About">About</a></li>
+                    <li> <a href="#Contact">Contact</a></li>
+                    <li><a href="#" class="tooltiped btn-floating btn-small black darken-4"
+                            data-tooltip="This is Instagram"><i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li><a href="#" class="tooltiped btn-floating btn-small black darken-4"
+                            data-tooltip="This is Twitter"><i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li><a href="#" class="tooltiped btn-floating btn-small black darken-4"
+                            data-tooltip="This is Facebook"><i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="sidenav grey lighten-3" id="mobile-menu">
+                    <li> <a href="#">Product</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Conatct</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+
+            <h1 class="center-align yellow-text" style="padding: 200px; font-family: 'Sofia', sans-serif">
+                FlowerWes</h1>
+
+        </div>
+    </header>
+
+    <!-- Photo/grid-->
+    <section class="container section" id="product">
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="img/lili.jpg" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="light-blue-text text-darken-4"> Bunga Lili </h2>
+                <p> Lili adalah bagian dari genus Lilium. Nama tanaman ini dalam bahasa Inggris adalah lily. Kawasan
+                    tumbuh lili meliputi sebagian besar Eropa, sebagian besar Asia sampai Jepang, ke selatan yaitu
+                    India, ke Indocina dan ke Filipina. Pada umumnya tanaman ini lebih cocok tinggal di habitat dengan
+                    tanah yang mengandung kadar asam seimbang. bunga lili Karena membawa banyak makna, bunga lili juga
+                    sering dikaitkan dengan simbol cinta, pengabdian serta kemurnian</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 l4 offset-l1 push-l7">
+                <img src="img/tulip.jpg" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l5 right-align" 1>
+                <h2 class="light-blue-text text-darken-4"> Bunga Tulip</h2>
+                <p> Tulip merupakan nama genus untuk 100 spesies tumbuhan berbunga yang termasuk ke dalam keluarga
+                    Liliaceae. Tulip berasal dari Asia Tengah, tumbuh liar di kawasan pegunungan Pamir dan pegunungan
+                    Hindu Kush dan stepa di Kazakhstan. Negeri Belanda terkenal sebagai negeri bunga tulip. Meskipun
+                    bukan bunga paling mewah di kebun, keindahan dan keanggunan tanaman tulip yang sederhana ini
+                    memiliki arti simbol seperti berikut ini: Sempurna, cinta abadi antara pasangan atau anggota
+                    keluarga. Kasih sayang yang tak terhingga, cinta yang ditolak atau dikembalikan. Penghargaan dan
+                    keagungan
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Parallex-->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/tulip.jpg" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- Services / tabs-->
+    <section class="section container" id="About">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="light-blue-text text-darken-4">What I do</h2>
+                <p>Bunga sering kali dikaitkan tentang romansa dengan beberapa makna bunga yang berbeda. karena
+                    keindahan dan harumnya sering disukai oleh para wanita. bunga juga sering dibuat untuk berbagai hal
+                    guna mengukapkan perasaan. semisal sebagai buket bunga. sering kali disetiap acara acara sakral
+                    ataupun momen indah selalu terdapat buket bunga. baik bunga segar asli ataupun articial </p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#articial" class="active light-blue-text text-darken-4">Articial</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#asli" class=" active light-blue-text text-darken-4">Bunga Asli</a>
+                    </li>
+                </ul>
+                <div id="articial" class="col s12">
+                    <p class="flow-text light-blue-text text-darken-4">Articial</p>
+                    <p>Bunga Artifisial merupakan bunga yang memiliki bahan dasar dari plastik dan kain. Desain serta
+                        tekstur dibentuk hampir mirip dengan bunga aslinya. Biasanya, bunga ini digunakan untuk :
+                        Dekorasi Pernikahan. tak kalah indah bunga articial sering dipesan karena ketahananlama</p>
+                </div>
+                <div id="asli" class="col s12">
+                    <p class="flow-text light-blue-text text-darken-4">Bunga Asli</p>
+                    <p>Bunga asli juga sering dipesan, dengan bunga asli sudah pasti harganya lebh tinggi. karena
+                        keaslian bunga sudah kita jamin. kita jamin mengunakan bunga segar dan untuk ketahanannya kalau
+                        biasanya cuma 2 atau 3 hari, kamu ingin mempertahankannya hingga 3-7 hari ke depan. Sebagai
+                        pengguna akhir, ada cara yang bisa Anda lakukan agar bunga tetap segar dan cantik hingga 3 – 7
+                        hari.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parallex-->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/sunflower.jpg" class="responsive-img">
+        </div>
+    </div>
+    <!-- form content-->
+    <section class="section container" id="Contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h5 class="light-blue-text text-darken-4"> Get in touch</h5>
+                <p> Silahkan Hubungi Kita melalui form disamping kanan berikut</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form action="">
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea class="materialize-textarea" id="message" cols="30" rows="10"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="date" class="datepicker">
+                        <label for="date">Pilih Tanggal </label>
+                    </div>
+                    <div class="input-fie">
+                        <p>Service required</p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Artificial</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Asli</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn"> Submit</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer-->
+    <footer class="page-footer gray darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>about me :</h5>
+                    <p>saya adalah ultramen saya adalah ultramensaya adalah ultramensaya adalah ultramensaya adalah
+                        ultramensaya adalah ultramen</p>
+                    <p>saya adalah ultramen saya adalah ultramensaya adalah ultramensaya adalah ultramensaya adalah
+                        ultramensaya adalah ultramen</p>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>Connect</h5>
+                    <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">Linked In</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2023-fitria</div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.scrollspy').scrollSpy();
+            $('.datepicker').datepicker({
+                disableWeekends: true
+            });
+            $('.tooltiped').tooltip();
+        });
+    </script>
+</body>
+
+</html>

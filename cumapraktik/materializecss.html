@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 300px;
+        }
+
+        .row>div {
+            padding: 10px;
+            background: beige;
+            border: 1px solid black;
+        }
+
+        .col>div {
+            background: lightcoral;
+            height: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est asperiores, dicta a
+            accusantium alias iusto culpa error quasi, quia dolor voluptas illo minus temporibus ea optio explicabo
+            porro itaque.</h2>
+    </div>
+
+    <!--Menghilangkan Konten-->
+    <div class="container">
+        <h4 class="hide">hilangkan aku di semua ukuran layar</h4>
+        <h4 class="hide-on-small-only">hilangkan aku di ukuran layar small</h4>
+        <h4 class="hide-on-large-only">hilangkan aku di ukuran layar besar</h4>
+        <h4 class="hide-on-med-only">hilangkan aku di ukuran layar medium</h4>
+        <h4 class="hide-on-med-and-down">hilangkan aku di ukuran layar medium dan small</h4>
+        <h4 class="hide-on-med-and-up">hilangkan aku di ukuran layar medium dan besar</h4>
+        <h4 class="show-on-small">munculkan aku di semua ukuran layar kecil</h4>
+    </div>
+    <!-- Colours-->
+
+    <div class="container">
+        <h2 class="light-blue white-text"> Mari kita coba warna</h2>
+    </div>
+
+    <!--Memformat Teks-->
+    <div class="container">
+        <h5 class="center-align"> Center Alignment</h5>
+        <h5 class="left align">Left Alignment</h5>
+        <h5 class="right-align"> Right Alignment</h5>
+    </div>
+
+    <!-- Box-->
+    <div class="container grey lighten-3 box valign-wrapper">
+        <h5> Vertical Alignment</h5>
+    </div>
+
+    <!--Truncate-->
+    <div class="container">
+        <p class="truncate"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ratione cupiditate quas
+            quaerat corporis, officiis libero corrupti quam incidunt sapiente! Tenetur beatae iusto distinctio, hic
+            dolore est animi quo. Ratione.</p>
+    </div>
+
+    <!-- Grid-->
+    <div class="container">
+        <div class="row">
+            <div class="col s3">content</div>
+            <div class="col s3">content</div>
+            <div class="col s3">content</div>
+            <div class="col s3">content</div>
+        </div>
+        <div class="row">
+            <div class="col m3">content</div>
+            <div class="col m3">content</div>
+            <div class="col m3">content</div>
+        </div>
+        <div class="row">
+            <div class="col s12 m5 l4 xl2">content</div>
+            <div class="col s12 m5 l4 xl2">content</div>
+            <div class="col s12 m5 l4 xl2">content</div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <span class="flow-text">12colum</span>
+            </div>
+            <div class="col s6 offset-s6"><span class="flow-text"> 6 colum dan akan ke kanan karena ada offset</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s7 push-s5"> <span class="flow-text"> Lebar div ini 7 kolom dan didorong kekanan 5
+                    kolom</span></div>
+            <div class="col s5 pull-s7"> <span class="flow-text"> Lebar div ini 7 kolom dan ditarik kekanan 5
+                    kolom</span></div>
+        </div>
+    </div>
+
+    <!--Divider    -->
+    <div class="divider"></div>
+    <div class="section">
+        <h6>secsion</h6>
+    </div>
+    <div class="section">
+        <h6>secsion</h6>
+    </div>
+
+    <!--Shadow adalah sebuah bayangan. depth merupakan ketebalan-->
+    <div class="container">
+        <h4>shadow</h4>
+        <div class="row">
+            <div class="col s2 z-depth-1">
+                <div></div>
+            </div>
+            <div class="col s2 z-depth-2">
+                <div></div>
+            </div>
+            <div class="col s2 z-depth-3">
+                <div></div>
+            </div>
+            <div class="col s2 z-depth-4">
+                <div></div>
+            </div>
+            <div class="col s2 z-depth-5">
+                <div></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
